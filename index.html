@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href= "sketch.css">
+    <script src= "scratch.js"></script>
+
+</head>
+<body>
+    <!-- Welcome Banner page -->
+
+    
+        <div class = "header">
+
+            <!-- Insert nice one piece background with gif -->
+            <h1> <strong> Welcome to my page</h1> </strong>
+    
+        </div>
+
+        <!-- A short introduction--> 
+
+        <section id = "bio_font"> 
+        <h1> A short introduction </h1> 
+        <p> Greetings! I am Tahmidur Rabb. I am a senior at New York University studying Computer Engineering</p>
+
+        <!-- Flexbox -->
+
+        <div class= "container">
+
+            <div>
+                <img src= "img/computer.png" class= "logos" id = "computer_logo"> 
+            </div>
+
+            <div>
+                <img src= "img/basketball.png" class = "logos" id ="basketball_logo">
+            </div>
+
+            <div>
+                <img src= "img/onepiece.png" class= "logos" id = "onepiece_logo">
+            </div>
+        </div>
+        <div class = "container">
+            <div>
+                Aspiring Software Engineer and future Computer Science professor.
+            </div>
+
+            <div>
+                I love playing basketball and video games on my free time and playing with my cats.
+             </div>
+
+             <div>
+                 I am a huge Fan of Anime, my favorite ones include One Piece, Cowboy Bebop, and Yu yu Hakusho 
+            </div>
+        </div>
+    </section>
+
+
+        <div class="bg-gradient_solid">
+            <div class="container">
+              <div class="section-header">
+                <h2>My tech journey</h2>
+                <hr>
+              </div>
+              <div class="steps">
+                <div class="steps-container">
+                  <div class="content">
+                    <h2>ASC Intensive Program</h2>
+                    <p>I was a part of the 2017 summer intensive at the Yahoo cohort. It was a great and rewarding experience and I am forever grateful to the All Star Code organization for giving me this opportunity.</p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2017</div>
+                </div>
+                <div class="steps-container">
+                  <div class="content">
+                    <h2>First College CS class </h2>
+                    <p>I took my very first computer science class in python. It was definetaly very challenging and an introduction of what was next to come. </p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2018</div>
+                </div>
+                <div class="steps-container">
+                  <div class="content">
+                    <h2>Internship at SCIP</h2>
+                    <p>I was a Web and App development intern at SCIP. Along with revamping their old website, with a team of 5 other people, we also designed an app that showcased a synopsis of the organization, its values and mission statement</p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2019</div>
+                </div>
+                <div class="steps-container">
+                  <div class="content">
+                    <h2>Pandemic</h2>
+                    <p> During the pandemic, I tried to expand my computer science knowledge given the abundance of time. I participated in many hackathons, online education courses, and bootcamps. It prepared me for later courses </p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2020</div>
+                </div>
+                <div class="steps-container">
+                  <div class="content">
+                    <h2> GOATED year </h2>
+                    <p>This year I was a Teaching Assistant at All Star Code and a project lead intern at STEM-Away. I had a memorable experience in both positions, working with bright minded individuals. </p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2021</div>
+                </div>
+                <div class="steps-container">
+                  <div class="content">
+                    <h2>Coming soon...</h2>
+                    <p> This year I was a software engineer at Dominion Capital. I worked with frontend frameworks such as Wordpress and more advanced frontend frameworks such as Gulpfile.js and Webpack. </p>
+                  </div>
+                  <i class="step-line"></i>
+                  <div class="date">2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        
+
+
+
+        <!-- API of pokemon names: Choose random pokemon for the day-->
+        <section id = "pokemon_api"> 
+        <p> Click the pokeball button</p>
+        <div id = "pokeball"> 
+        <div id= "top_pokeball"> 
+        </div>
+        <div id = "black_border">
+        <button id = "pokeball_button" onclick = "onClick()"></button>
+
+        </div>
+        <div id = "middle_pokeball">
+
+        </div>
+
+        <div id= "bottom_pokeball">  </div>
+
+        </div>
+
+        <div id = "randomized"> </div>
+
+        </section> 
+
+
+
+
+
+
+
+
+
+
+    <!-- Nice Flexbox Design -->
+    <!-- Include a gallery of gifs-->
+    <h1 style= "text-align:center; color: white">Here is a gallery of gifs </h1>
+    <section id = "image_gallery">
+        <ul>
+            <li><img src= "img/kobe.gif" width="250">
+            <li><img src="img/luffy.gif" width="250"/>
+            <li><img src="img/cat.gif" width="250"/>
+            <li><img src="img/coding.gif" width="250"/>
+            <li><img src="img/spidey.gif" width="225"/>
+            <li><img src="img/supersonic.webp" width= "375"/> </li>
+            <li><img src= "img/newyork.gif" width= "400"/> </li>
+            <li><img src= "img/mj.gif" width = "375"/> </li> 
+            
+            
+          </ul>
+          <div class="light"></div>
+
+        </section>
+
+    <section>
+        <div class="wrapper">
+            <form class="form">
+              <div class="pageTitle title">Send Feedback </div>
+              <div class="secondaryTitle title">Please fill out this form for feedback</div>
+              <input type="text" class="name formEntry" placeholder="Name" />
+              <input type="text" class="email formEntry" placeholder="Email"/>
+              <textarea class="message formEntry" placeholder="Message"></textarea>
+              <input type="checkbox" class="termsConditions" value="Term">
+              <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+              <button class="submit formEntry" onclick="thanks()">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class = "footer">
+        <p> Copyright, Tahmidur Rabb, 2022 </p>
+        <p> Vintage Studios. Inc</p>
+        <a href = "https://www.linkedin.com/in/tahmidur-rabb-13b187145/" target = "_blank">
+        <img class = "connection_logos" src= "img/linkedin.png" />
+        </a>
+
+        <a href = "https://github.com/trabbAC4" target= "_blank"> 
+        <img class = "connection_logos" src= "img/github.png" />
+        </a>
+
+
+    </div>
+
+
+
+    
+</body>
+</html>

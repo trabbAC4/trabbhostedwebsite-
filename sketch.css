@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+.header {
+    font-family: "Cairo";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height:2;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 10px 0;
+
+}
+
+body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Bio font */
+#bio_font {
+    color: white;
+
+}
+/* Flexbox */
+.container {
+    display: flex;
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+}
+#computer_logo {
+    margin-left: 95px;
+}
+#basketball_logo {
+    margin-left: 200px;
+}
+#onepiece_logo {
+    margin-left: 290px;
+}
+
+/* Bootstrap Timeline */
+
+:root {
+    --primary: #37a9e1;
+    --primary-gradient: linear-gradient(45deg, #153c7e 0%, #37a9e1 100%);
+  }
+  .section-header {
+    text-align: center;
+  }
+  .section-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .section-header hr {
+    border: 1px solid #fff;
+    width: 56px;
+  }
+  .bg-gradient_solid {
+    background: var(--primary-gradient);
+    color: #fff;
+    padding: 48px 0;
+  }
+  .steps {
+    position: relative;
+    margin-top: 32px;
+  }
+  .steps::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: white;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+  
+  .steps .content p {
+    color: #676767;
+    font-size: 16px;
+  }
+  
+  .steps .content h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+  }
+  
+  .steps-container {
+    position: relative;
+    background-color: inherit;
+    width: calc(50% + 32px);
+  }
+  
+  .steps-container .content {
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+  }
+  
+  .steps .steps-container:nth-child(even) {
+    left: calc(50% - 32px);
+    flex-direction: row-reverse;
+  }
+  
+  .steps-container {
+    display: flex;
+  }
+  
+  .steps .steps-container .date {
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 777;
+  }
+  
+  .step-line {
+    width: 40px;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 31px;
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .steps::after {
+      left: 32px;
+    }
+    .steps-container {
+      left: 0;
+      flex-direction: row-reverse;
+      width: auto;
+      margin-bottom: 16px;
+    }
+    .steps .steps-container:nth-child(even) {
+      left: 0;
+    }
+  }
+
+/* Pokeball */
+
+#pokemon_api {
+    background-color: black;
+    color: white;
+
+}
+
+#pokeball {
+    margin-left: 615px;
+}
+
+#top_pokeball {
+
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: red;
+
+}
+
+#middle_pokeball {
+    height: 5px;
+    width: 100px;
+    background-color: black;
+}
+
+#black_border {
+    margin-left: 80px;
+    padding-right: 25px;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+#randomized {
+    color: white;
+}
+
+#pokeball_button {
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+#bottom_pokeball {
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 150px 150px;
+    background-color:white;
+
+}
+
+
+
+
+#img_gallery {
+    font-family: 'Homemade Apple', cursive;
+    font-size:20px;
+    background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    background-repeat:repeat;
+    color:#000;
+  }
+  
+  ul{
+    position:absolute;
+    margin:0;
+    padding:0;
+  }
+  
+  li{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    border:solid 12px #fff;
+    background:#fff;
+    box-shadow:0 0 15px 0px #555;
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+  }
+  
+  
+  li:hover{
+    top:0px;
+    opacity:0.5;
+  }
+  
+  li:nth-child(1){
+      transform:rotate(10deg);
+  }
+  
+  li:nth-child(2){
+      transform:rotate(0deg);
+  }
+  
+  li:nth-child(3){
+      transform:rotate(-10deg);
+  }
+  
+  li:nth-child(4){
+      transform:rotate(20deg);
+  }
+  li:nth-child(5) {
+      transform:rotate(0deg);
+  }
+  li:nth-child(6) {
+      transform:rotate(-10deg);
+    }
+  li:nth-child(8){
+      transform:rotate(10deg);
+  }
+  .light{
+    border-radius:50%;
+    left:0;
+    right:0;
+    width:700px;
+    height:700px;
+    background:#fff;
+    filter:blur(100px);
+    opacity:0.3;
+    pointer-events:none;
+  }
+  /* Sign up form */
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: white;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #0e3721;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+
+    }
+  .connection_logos {
+      height: 50px;
+      width: 50px;
+  }
